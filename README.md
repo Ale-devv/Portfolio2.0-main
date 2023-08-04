@@ -1,3 +1,7 @@
+![image](https://github.com/alnnnn/Portfolio2.0-main/assets/134543555/f4c9f39f-9184-4b59-a861-067001db824e)
+
+
+
 📑 Descrição
 Portfólio criado com o objetivo de apresentar meus trabalhos e habilidades para visitantes que estejam interessados em conhecer mais sobre mim como desenvolvedor. Com o uso de tecnologias modernas e atuais, o projeto é uma representação clara da minha experiência e habilidades técnicas.
 
