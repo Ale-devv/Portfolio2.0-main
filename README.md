@@ -1,24 +1,29 @@
 ![image](https://github.com/alnnnn/Portfolio2.0-main/assets/134543555/f4c9f39f-9184-4b59-a861-067001db824e)
 
+<div style="display: inline_block">
+  <img src="https://img.shields.io/badge/TypeScript-brightgreen"/>
+  <img src="https://img.shields.io/badge/ReactJs-brightgreen"/>
+  <img src="https://img.shields.io/badge/Styled Components-brightgreen"/>
+</div>
 
 
-📑 Descrição
-Portfólio criado com o objetivo de apresentar meus trabalhos e habilidades para visitantes que estejam interessados em conhecer mais sobre mim como desenvolvedor. Com o uso de tecnologias modernas e atuais, o projeto é uma representação clara da minha experiência e habilidades técnicas.
+<h2>:bookmark_tabs: Descrição</h2>
+<p>Portfólio criado com o objetivo de apresentar meus trabalhos e habilidades para visitantes que estejam interessados em conhecer mais sobre mim como desenvolvedor. Com o uso de tecnologias modernas e atuais, o projeto é uma representação clara da minha experiência e habilidades técnicas.</p>
 
-Clique aqui para ver o design do projeto
+<h2>:grinning: Como utilizar</h2>
 
-Você pode visualizar o projeto no ar clicando aqui
-😀 Como utilizar
-1. Clone o repositório:
-  
-    git clone https://github.com/Math-Vieira/Portfolio2.0
-  
-2. Entre no repositório clonado e instale as dependências:
-  
+<h3>1. Clone o repositório e utilize o comando no terminal:</h3>
+<pre>
+  <code>
     npm install
-  
-3. Inicie o servidor React
-  
+  </code>
+</pre>
+
+<h3>2. Inicie o servidor React</h3>
+<pre>
+  <code>
     npm start
-  
-Após realizar esta sequência de passos a aplicação já estará pronta para ser utilizada
+  </code>
+</pre>
+
+<p>Após realizar esta sequência de passos a aplicação já estará pronta para ser utilizada </p>
