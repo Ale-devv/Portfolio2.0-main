@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "projectType": "Front-end",
+            "projectName": "Portfólio2.0",
+            "projectRepo": "https://github.com/Ale-devv/Portfolio2.0-main",
+            "status": "Em andamento",
+            "projectImage": "https://media.discordapp.net/attachments/1154454824784515245/1154458318497132625/image.png?width=906&height=425",
+            "projectDescription": "Projeto criado para apresentar meus trabalhos e habilidades aos visitantes interessados em conhecer mais sobre mim."
+        },
+        {
+            "projectType": "Front-end",
+            "projectName": "Portfólio",
+            "projectRepo": "https://github.com/Math-Vieira/deezer-app",
+            "projectUrl": "https://deezer-app-mv.vercel.app/",
+            "status": "Concluído",
+            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089385418199416913/image.png",
+            "projectDescription": "Este projeto é uma aplicação web desenvolvida com React que permite pesquisar músicas e visualizar as mais populares utilizando a API do Deezer."
+        }
+    ]
+}

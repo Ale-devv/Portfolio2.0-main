@@ -1,0 +1,28 @@
+{
+    "courses": [
+        {
+            "courseName": "Git e GitHub",
+            "institution": "Cursa",
+            "duration": "9 Horas",
+            "instructor": "Tiago Matos",
+            "certificate": "https://cursa.com.br/certificate/bcddf42e76",
+            "conclusion": "2023"
+        },
+        {
+            "courseName": "Microsoft Power BI Para Data Science",
+            "institution": "Data Science Academy",
+            "duration": "72 horas",
+            "instructor": "Tiago Pereira",
+            "certificate": "https://www.google.com/url?q=https://mycourse.app/L9yLW6ytaJdCgDPN7&sa=D&source=apps-viewer-frontend&ust=1691245055349114&usg=AOvVaw2mh7UjeLxVB1VlnRvtR-FF&hl=pt-BR",
+            "conclusion": "2022"
+        },
+        {
+            "courseName": "Javascript e Typescrit do basico ao avançado",
+            "institution": "Udemy",
+            "duration": "146 horas",
+            "instructor": "Luiz Otávio Miranda",
+            "certificate": "https://www.udemy.com/certificate/UC-8d4c359d-ab20-49f1-8a78-8b52c3e495b2/",
+            "conclusion": "2023"
+        }
+    ]
+}
