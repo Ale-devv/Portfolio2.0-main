@@ -4,8 +4,7 @@ import { AppContextProvider } from "./context/AppContext";
 import GlobalStyle from "./GlobalStyle";
 import 'react-toastify/dist/ReactToastify.css';
 import ScrollTopButton from './components/ScrollTopButton/ScrollTopButton';
-
-
+import Particle from "./pages/Home/components/ParticlesComponent/Particle";
 
 
 const App = () => {
@@ -15,6 +14,7 @@ const App = () => {
             <RoutesApp />
             <ScrollTopButton />
         </AppContextProvider>
+        
     );
 };
 

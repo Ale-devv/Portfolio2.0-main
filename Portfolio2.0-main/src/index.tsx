@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import "swiper/css/navigation";
 import "swiper/css";
-import ScrollTopButton from './components/ScrollTopButton/ScrollTopButton';
 
 
 export default App;

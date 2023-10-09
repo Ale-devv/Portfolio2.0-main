@@ -8,7 +8,9 @@ interface AboutMeContract {
 
 const AboutMeSection = ({ isMobile }: AboutMeContract) => {
     return (
+        
         <S.Section id="aboutMe">
+            
             <div className="centralizer">
                 <H2>Sobre mim</H2>
                 <S.AboutMeContainer>
@@ -30,6 +32,7 @@ const AboutMeSection = ({ isMobile }: AboutMeContract) => {
                         </div>
                     )}
                 </S.AboutMeContainer>
+                
             </div>
         </S.Section>
     );

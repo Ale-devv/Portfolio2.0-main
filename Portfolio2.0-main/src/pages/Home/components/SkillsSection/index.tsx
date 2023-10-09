@@ -28,6 +28,7 @@ const SkillsSection = () => {
                     </GenericButton>
                 </S.SeeMoreContainer>
             </S.SkillsContainer>
+            
         </S.Section>
     );
 };

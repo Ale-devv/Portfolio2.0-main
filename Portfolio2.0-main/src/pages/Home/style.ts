@@ -105,12 +105,23 @@ export const AboutMeContainer = styled.div`
     & .svgContainer {
         display: flex;
         justify-content: center;
+        
     }
+    .textDiv{
+   position: absolute;
+   top: 0;
+   left: 0;
+   
+   /*cor apenas para exmplo*/
+   color: #fff;
+}
+
     @media (max-width: 900px) {
         width: 80%;
         margin: 0 auto;
         display: block;
         text-align: center;
+        
     }
 `;
 

@@ -3,9 +3,9 @@ import { useRef, useState, useEffect } from "react";
 import SocialMediaBox from "../../../../components/SocialBox";
 import { ReactComponent as Linkedin } from "../../../../assets/svg/linkedin.svg";
 import { ReactComponent as GitHub } from "../../../../assets/svg/github.svg";
-import { ReactComponent as Instagram } from "../../../../assets/svg/instagram.svg";
 import MainLogo from "../../../../assets/svgComponents/MainLogo";
 import { typingFunction } from "./functions";
+import Particle from "../ParticlesComponent/Particle";
 
 interface MainComponentContract {
     isMobile: boolean;
@@ -29,10 +29,13 @@ const MainComponent = ({ isMobile }: MainComponentContract) => {
 
     return (
         <S.Main id="start">
+            <Particle />
+            
             <div className={`${!isInitial ? "animeLeft" : ""} centralizer`}>
                 <S.MainContentContainer>
                     <div className="nameLogoContainer">
                         <S.MyInfoContainer>
+                            
                             <S.Name>Alisson Oliveira</S.Name>
                             <S.Occupation ref={ref}></S.Occupation>
                             <S.SocialMediaContainer>

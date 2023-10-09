@@ -4,7 +4,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import MainComponent from "./components/MainComponent";
 import CertificatesSection from "./components/CertificatesSection";
 import SkillsSection from "./components/SkillsSection";
-import StarFieldSection from "./components/StarFieldSection/starfield";
+
 
 const Home = () => {
     const isMobile = useMediaQuery("(max-width: 900px)");
@@ -16,7 +16,7 @@ const Home = () => {
             <ProjectsSection />
             <CertificatesSection />
             <SkillsSection />
-            <StarFieldSection />
+            
         </>
     );
 };
