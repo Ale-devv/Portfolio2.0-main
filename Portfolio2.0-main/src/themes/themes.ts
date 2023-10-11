@@ -21,15 +21,15 @@ export const darkTheme: ThemeType = {
     tertiaryColor: "#1F1F1F",
     quaternaryColor: "#7E7E7E",
     headerBoxShadow: "0px 4px 4px rgba(61, 61, 61, 0.25)",
-    mainColor: "#00AD6F",
+    mainColor: "#8d0000",
     textColor: "#FFFFFF",
-    boxShadowItem: "0px 4px 4px rgba(0, 173, 111, 0.58)",
+    boxShadowItem: "0px 4px 4px rgba(60, 20, 111, 0.58)",
     selectItemArrow: "#FFF",
     gitHubTheme: {
         level0:"#505050",
-        level1:'#007E51',
-        level2: '#009B63',
-        level3:'#00B876',
-        level4:'#00D98B'
+        level1:'#8d6565',
+        level2: '#8d4545',
+        level3:'#8d2525',
+        level4:'#8d0000'
     }
 };

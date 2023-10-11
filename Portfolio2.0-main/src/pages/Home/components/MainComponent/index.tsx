@@ -29,10 +29,10 @@ const MainComponent = ({ isMobile }: MainComponentContract) => {
 
     return (
         <S.Main id="start">
-            <Particle />
             
-            <div className={`${!isInitial ? "animeLeft" : ""} centralizer`}>
-                <S.MainContentContainer>
+            
+            <div className={`${!isInitial ? "animeLeft" : ""} `}>
+                <S.MainContentContainer><Particle />
                     <div className="nameLogoContainer">
                         <S.MyInfoContainer>
                             

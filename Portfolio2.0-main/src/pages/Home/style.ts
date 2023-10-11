@@ -31,7 +31,7 @@ export const MainImgContainer = styled.div`
 `
 
 export const MainContentContainer = styled.div`
-    width: 100%;
+    width: 75%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -47,18 +47,21 @@ export const MainContentContainer = styled.div`
 
 export const Name = styled.h1`
     font-size: 3.7rem;
+    margin-left: 600px;
     color: ${({ theme }) => theme.textColor};
-    @media (max-width: 900px) {
+    @media (max-width: 10px) {
         font-size: 3rem;
         text-align: center;
     }
     @media (max-width: 500px) {
         font-size: 2.5rem;
+        
     }
 `;
 
 export const Occupation = styled.p`
     color: ${({ theme }) => theme.mainColor};
+    margin-left: 600px;
     font-size: 2rem;
     margin-top: -1.5rem;
     position: relative;
@@ -73,13 +76,14 @@ export const Occupation = styled.p`
     @media (max-width: 500px) {
         font-size: 2rem;
         text-align: center;
+        
     }
 `;
 
 export const SocialMediaContainer = styled.div`
     display: flex;
     gap: 1rem;
-    margin-left: 2px;
+    margin-left: 600px;
 `;
 
 export const MyInfoContainer = styled.div`

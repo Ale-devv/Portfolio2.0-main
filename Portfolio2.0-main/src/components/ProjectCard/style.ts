@@ -26,7 +26,7 @@ export const ProjectContainer = styled.div`
     }
     &:nth-child(1):before,
     &:nth-child(1):after {
-        background: linear-gradient(235deg, #00ad6f, #00ad6f, #00ad6f);
+        background: linear-gradient(235deg, #1d0000, #3d0000, #8d0000);
     }
     padding: 3rem;
     display: flex;

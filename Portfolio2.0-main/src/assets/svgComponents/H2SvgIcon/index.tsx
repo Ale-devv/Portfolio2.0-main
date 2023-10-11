@@ -11,7 +11,7 @@ const H2SvgIcon = () => {
                 width="54"
                 height="4"
                 rx="2"
-                fill="#00AD6F"
+                fill="#8d0000"
                 fillOpacity="0.58"
             />
             <rect
@@ -19,7 +19,7 @@ const H2SvgIcon = () => {
                 width="54"
                 height="4"
                 rx="2"
-                fill="#00AD6F"
+                fill="#8d0000"
                 fillOpacity="0.58"
             />
             <rect
@@ -28,7 +28,7 @@ const H2SvgIcon = () => {
                 width="54"
                 height="4"
                 rx="2"
-                fill="#00AD6F"
+                fill="#8d0000"
                 fillOpacity="0.58"
             />
         </svg>
