@@ -1,10 +1,11 @@
 import useMediaQuery from "../../hooks/useMediaQuery";
-import AboutMeSection from "./components/AboutMeSection";
+import AboutMeSection from "./components/AboutMeSection/index";
 import ProjectsSection from "./components/ProjectsSection";
 import MainComponent from "./components/MainComponent";
 import CertificatesSection from "./components/CertificatesSection";
 import SkillsSection from "./components/SkillsSection";
-
+import Cursor from "../../components/Cursor/cursor";
+import Header from '../../layouts/Header/index';
 
 const Home = () => {
     const isMobile = useMediaQuery("(max-width: 900px)");
@@ -16,6 +17,8 @@ const Home = () => {
             <ProjectsSection />
             <CertificatesSection />
             <SkillsSection />
+            <Cursor />
+            <Header />
             
         </>
     );

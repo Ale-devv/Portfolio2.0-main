@@ -5,8 +5,12 @@ import * as S from "./style";
 const Header = () => {
     const isMobile = useMediaQuery("(max-width: 700px)");
     const { state: mobileNav, toggle: toggleMobileNav } = useToggle();
-    return (
+    return ( 
+
+
         <S.Header>
+
+            
             <S.HeaderContentContainer className="centralizer">
                 <S.Logo>
                     <a href="/">
@@ -61,6 +65,7 @@ const Header = () => {
                     </S.MobileMenu>
                 )}
             </S.HeaderContentContainer>
+            
         </S.Header>
     );
 };

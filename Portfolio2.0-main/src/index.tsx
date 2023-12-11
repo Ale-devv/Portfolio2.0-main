@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import "swiper/css/navigation";
 import "swiper/css";
-
+import "./i18n/index";
 
 export default App;
 

@@ -8,9 +8,7 @@ interface AboutMeContract {
 
 const AboutMeSection = ({ isMobile }: AboutMeContract) => {
     return (
-        
         <S.Section id="aboutMe">
-            
             <div className="centralizer">
                 <H2>Sobre mim</H2>
                 <S.AboutMeContainer>
@@ -22,8 +20,8 @@ const AboutMeSection = ({ isMobile }: AboutMeContract) => {
                         </p>
                         <br />
                         <p>
-                            Atualmente estou cursando Sistemas de informação e estou focando
-                            no desenvolvimento WEB.
+                            Atualmente estou cursando sistemas de informação e estou
+                            focando totamente no desenvolvimento front-end.
                         </p>
                     </div>
                     {!isMobile && (
@@ -32,7 +30,6 @@ const AboutMeSection = ({ isMobile }: AboutMeContract) => {
                         </div>
                     )}
                 </S.AboutMeContainer>
-                
             </div>
         </S.Section>
     );

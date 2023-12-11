@@ -14,7 +14,7 @@ interface MainComponentContract {
 const MainComponent = ({ isMobile }: MainComponentContract) => {
     const [isInitial, setIsInitial] = useState<boolean>(true);
     const ref = useRef<HTMLParagraphElement>(null);
-    const occupation: string = "Desenvolvedor Web";
+    const occupation: string = "Web Developer";
 
     useEffect(() => {
         if (
